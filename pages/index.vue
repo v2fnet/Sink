@@ -1,8 +1,9 @@
-<script>
-export default {
-  mounted() {
-    // Redirect to external URL
-    window.location.href = 'https://www.v2f.net';
-  }
-}
-</script>
+<template>
+  <main class="flex flex-col justify-center">
+
+    <HomeHero />
+    <HomeFeatures />
+    <HomeLogos />
+    <HomeCta />
+  </main>
+</template>
